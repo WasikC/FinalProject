@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>W3.CSS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div>
+            <header class="w3-container w3-blue">  <!--w3-container adds 16 pixels of padding 
+                around each element; w3-green makes the background green -->
+                <h1>Wasik Chowdhoury-Portfolio</h1>
+                <nav>
+                    <ul>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="file:///C:/Users/chowdhoury/Documents/New%20folder/Web%20Design/Resume.html">Resume</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+
+            <div class="w3-container">
+                <h1>Car Gallery</h1>
+            </div>
+            
+            <section class="w3-container ">
+                <p>The four artwork</p>
+            </section>
+                
+            <section class="w3-container"> <!-- w3-container adds 16 pixels of padding around each element -->
+               
+            </section>
+        
+            <section class="w3-row row-color-1"> <!-- In this row, we  have the w3-row class only, which defines 
+                a padding-less container. Without the w3-container property, you don't get padding 
+                between the elements. -->
+                
+            
+        
+        
+
+
+            <section class="w3-container w3-row row-color-1"> <!-- While the w3-row class defines a padding-less 
+                container, when you also have w3-container, it adds 16-pixel padding around the 
+                entire row, but not between the contained elements -->
+                <article class="w3-col s12 m4 l4">
+                    <h4>Mclaren</h4>
+                    <p><img src="C:\Users\chowdhoury\Downloads\IMG-3912 (3).jpg" alt="Mclaren" height="250"></p>
+                </article>
+                <article class="w3-col s12 m4 l4">
+                    <h4><a title="mantis">Land Rover</a></h4>
+                    <p><a href=""><img src="C:\Users\chowdhoury\Downloads\IMG-3913 (1).jpg" alt="Landrover" height="250"></a></p>
+                </article>
+                <article class="w3-col s12 m4 l4">
+                    <h4>Ferrar,Fiat and Ford</h4>
+                    <p><img src="C:\Users\chowdhoury\Downloads\IMG-3914 (1).jpg" alt="Cars starting with F" height="250"></p>
+                </article>
+                <article class="w3-col s12 m4 l4">
+                    <h4>Ferrar,Fiat and Ford</h4>
+                    <p><img src="C:\Users\chowdhoury\Downloads\IMG-3915 (1).jpg" alt="Pagani" height="250"></p>
+                </article>
+            </section>
+    
+        
+
+             
+
+
+            <footer>
+                <p>&copy; Copyright 2020</p>
+            </footer>
+        </div>
+	</body>
+</html>
