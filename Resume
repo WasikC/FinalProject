@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+﻿
+<!-- THIS RESUME TEMPLATE USES W3.CSS. IT HAS A SIDEBAR ON THE LEFT. 
+    IT ALSO USES FONT AWESOME ICONS.
+    I MODIFIED A TEMPLATE FROM CODEPEN TO CUSTOMIZE THIS TEMPLATE FOR OUR CLASS. 
+    I'VE ALSO ADDED SOME HELPFUL INSTRUCTIONS FOR YOU.
+    READ EACH OF THE COMMENTS IN THE CODE FOR INSTRUCTIONS!
+Source: https://codepen.io/nathan-sr/pen/WNgPLvr -->
+<html lang="en">
+    <head>
+        <!-- Remember to replace this title with the name of your website! -->
+        <title>W3.CSS Template</title>
+﻿
+        <!-- Keep this stuff. It makes the site responsive and makes w3.css work. -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+       
+        <!-- Keep this too. This template uses Font Awesome icons, and this makes them work.  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+﻿
+        <!-- The example uses the Roboto google font. If you are using a different font, swap out this link
+        for the link to your fonts. -->
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+        
+        
+       
+        <!-- *** Paste the link to your CSS style sheet here. ***
+        *                                                         *
+        *          *   LINK TO YOUR CSS FILE GOES HERE  *         *
+        *                                                         *
+        ***********************************************************
+     -->
+﻿
+﻿
+        <!-- YOU CAN DELETE THIS EMBEDDED CSS. USE YOUR OWN CSS FILE 
+        WITH YOUR OWN FONT.  -->
+       <style>  
+        html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+        </style>  <!-- DELETE ME!-->
+﻿
+    </head>
+﻿
+﻿
+    <body class="w3-light-grey">
+﻿
+﻿
+        <!-- *** PASTE YOUR WEBSITE'S HEADER AND NAV HERE FROM YOUR INDEX.HTML
+        *                                                                   *
+        *                                                                   *
+        *                    *     YOUR NAV GOES HERE !    *                *
+        *                                                                   *
+        *                                                                   *
+        *********************************************************************
+    -->
+﻿
+        <!-- Page Container -->
+        <div class="w3-content w3-margin-top" style="max-width:1400px;">
+﻿
+        <!-- The Grid -->
+            <div class="w3-row-padding">
+            
+                <!-- Left Column -->
+                <div class="w3-third">
+                
+                    <div class="w3-white w3-text-grey w3-card-4">
+                        <div class="w3-display-container">
+                            <div class="w3-display-bottomleft w3-container w3-text-black">
+                                <h2>Wasik Chowdhoury</h2>
+                            </div>
+                        </div>
+                        <div class="w3-container">
+﻿
+                            <!--HOW TO USE FONT AWESOME ICONS
+                                This template uses these font awesome icons. to use a font awesome icon, 
+                                1. go to this site and find an icon you like: https://fontawesome.com/icons 
+                                2. Grab the name of the icon. Let's say you choose "cube." Then, go down to one of the places below that has 
+                                classes of "fa" and "fa-[something]." You are going to replace the word "something" with "cube."
+                                3. That's it! the line of code should read something like: 
+                                <p><i class="fa fa-cube fa-fw w3-margin-right w3-large w3-text-teal"></i>Designer</p>
+                            -->
+﻿
+                            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-blue"></i>Designer</p>
+                            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-sky blue"></i>Queens, NY</p>
+                            <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-blue"></i>chowdhoury.wasik@gmail.com</p>
+                            <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-sky blue"></i>(929) 476-7170</p>
+                            <hr>
+﻿
+                            <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-red"></i>Skills</b></p>
+                            <p>Adobe Photoshop</p>
+                            <div class="w3-light-grey w3-round-xlarge w3-small">
+                                <div class="w3-container w3-center w3-round-xlarge w3-red" style="width:10%">10%</div>
+                            </div>
+                            <p>Photography</p>
+                            <div class="w3-light-grey w3-round-xlarge w3-small">
+                                <div class="w3-container w3-center w3-round-xlarge w3-red" style="width:30%">
+                                    <div class="w3-center w3-text-white" style="width:80%">80%</div>
+                                </div>
+                            </div>
+                            <p>Illustrator</p>
+                            <div class="w3-light-grey w3-round-xlarge w3-small">
+                                <div class="w3-container w3-center w3-round-xlarge w3-red" style="width:100%">100%</div>
+                            </div>
+                            <br>
+﻿
+                            <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-blue"></i>Languages</b></p>
+                            <p>English</p>
+                            <div class="w3-light-grey w3-round-xlarge">
+                                <div class="w3-round-xlarge w3-blue" style="height:30px;width:100%"></div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <br>
+﻿
+                <!-- End Left Column -->
+                </div>
+﻿
+                <!-- Right Column -->
+                <div class="w3-twothird">
+                                
+﻿
+                <div class="w3-container w3-card w3-white">
+                    <div class="w3-container">
+                    </div>
+                    <div class="w3-container">
+                    <h5 class="w3-opacity"><b>NYC College of Technology</b></h5>
+                    <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2023 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+                    <p>Communication Design (in progress)</p>
+                    <hr>
+                    </div>
+                    <div class="w3-container">
+                    <h5 class="w3-opacity"><b>Civic Leadership Academy</b></h5>
+                    <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2019 - 2023</h6>
+                    <p>High School Diploma</p><br>
+                    </div>
+                </div>
+﻿
+                <!-- End Right Column -->
+                </div>
+                
+            <!-- End Grid -->
+            </div>
+        
+        <!-- End Page Container -->
+        </div>
+
+﻿
+    </body>
+﻿
+</html>
